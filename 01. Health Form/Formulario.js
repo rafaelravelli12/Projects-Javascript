@@ -24,7 +24,6 @@ function mascaraData(val) {
                 val.value = tst1;
                 continue;
             }
-
             if ((nchar != '/') && (nchar != '')) {
                 var tst1 = val.value.substring(0, (i) + 1);
 
@@ -69,16 +68,15 @@ function mascaraData(val) {
     return true;
 }
 
-//Função celular: aplicara uma máscara no id "cel" de classe "campo" no arquivo "Formulario.html" afim de formatar o número com seu DDD. 
+//Função celular: aplicará uma máscara no id "cel" de classe "campo" no arquivo "Formulario.html" afim de formatar o número com seu DDD. 
 function mascara(o, f) {
-    setTimeout(function() {
+    setTimeout(function () {
         var v = mascaraCel(o.value);
         if (v != o.value) {
             o.value = v;
         }
     }, 1);
 }
-
 function mascaraCel(v) {
     var r = v.replace(/\D/g, "");
     r = r.replace(/^0/, "");
@@ -94,41 +92,28 @@ function mascaraCel(v) {
     return r;
 }
 
-
 /*Função cpf: aplicará uma máscara no id "cpf" de classe "campo" no arquivo "Formulario.html"
 afim de formatar o cpf (000.000.000-00) e aceitando apenas número*/
 function is_cpf(c) {
-
     if ((c = c.replace(/[^\d]/g, "")).length != 11)
         return false
-
     if (c == "00000000000")
         return false;
-
     var r;
     var s = 0;
-
     for (i = 1; i <= 9; i++)
         s = s + parseInt(c[i - 1]) * (11 - i);
-
     r = (s * 10) % 11;
-
     if ((r == 10) || (r == 11))
         r = 0;
-
     if (r != parseInt(c[9]))
         return false;
-
     s = 0;
-
     for (i = 1; i <= 10; i++)
         s = s + parseInt(c[i - 1]) * (12 - i);
-
     r = (s * 10) % 11;
-
     if ((r == 10) || (r == 11))
         r = 0;
-
     if (r != parseInt(c[10]))
         return false;
     return true;
@@ -151,7 +136,6 @@ function mCPF(cpf) {
     cpf = cpf.replace(/(\d{3})(\d{1,2})$/, "$1-$2")
     return cpf
 }
-
 
 /*Função cep: aplicará uma máscara no id "cep" de classe "campo" no arquivo "Formulario.html"
 afim de pesquisar o cep digitado por meio do WebService "ViaCep" através de uma requisição HTTP para a sua API, retornando
@@ -181,10 +165,8 @@ function meu_callback(conteudo) {
 }
 
 function pesquisacep(valor) {
-
     //Nova variável "cep" somente com dígitos.
     var cep = valor.replace(/\D/g, '');
-
 
     //Verifica se campo cep possui valor informado.
     if (cep != "") {

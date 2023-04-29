@@ -7,12 +7,13 @@
 
 /* Caixa do formulário que abriga todos elementos */
 .main-container {
+    margin: 2rem;
     padding: 1rem 5rem;
     width: 40rem;
     height: 57rem;
     border-radius: 50px;
-    background: #696969;
-    color: white;
+    background: #474747;
+    color: rgb(128, 128, 128);
 }
 
 /* Elementos de classe "main-container" de tag <h1> */
@@ -45,7 +46,7 @@ body {
     display: flex;
     justify-content: center;
     font-family: sans-serif;
-    background-color: #E0EEEE;
+    background-color: #7c7c7c;
     font-size: 1em;
     color: #59429d;
 }
