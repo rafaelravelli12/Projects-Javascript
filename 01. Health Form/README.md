@@ -6,6 +6,8 @@ This repository is being used to allocate the Project, based on DeLucca7 reposit
 
 You can acess the Project online: http://projects-javascript-01.health-form.s3-website-sa-east-1.amazonaws.com/
 
+This project is a static page. It is a simple form, built in HTML, CSS and Javascript. The mais porpouse is practice some javascripts functions.
+
 ------------
 
 This software was developed in Windows 11 Environment: https://www.microsoft.com/en-us/windows/windows-11?r=1
