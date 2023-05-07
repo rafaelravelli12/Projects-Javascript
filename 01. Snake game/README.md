@@ -3,7 +3,8 @@
 Estimeed Sirs,
 
 ```
-This project is a recriation of the famous cellphone Snake Game, built with Javascript. You can play it with the arrows keyboard keys:
+This project is a recriation of the famous cellphone Snake Game, built with Javascript.
+You can play it with the arrows keyboard keys:
 ![Up, down, rigth and left](http://lh5.ggpht.com/-xlok-SYiLXQ/UXE1sddejaI/AAAAAAAAE74/cBgGFSBQuK8/setas_navegue_thumb%25255B1%25255D.gif?imgmax=800)
 
 ```
