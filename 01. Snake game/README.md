@@ -11,7 +11,7 @@ You can play it with the arrows keyboard keys:
 
 This repository allocates the Project, based on [DeLucca7 repository](https://github.com/DeLucca7/Snake-Game_Javascript) (accessed 30/04/2023):
 
-The Project is allocated in [Cloud server](http://projects-javascript-03.snake.game.s3-website-sa-east-1.amazonaws.com/)
+The Project is located on a Cloud Server and can be [accessed online by clicking here](http://projects-javascript-03.snake.game.s3-website-sa-east-1.amazonaws.com/) .
 
 ## Project Structure
 The project was developed in the Operating System [Windows 11](https://www.microsoft.com/en-us/windows/windows-11?r=1)
