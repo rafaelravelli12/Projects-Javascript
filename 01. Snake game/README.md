@@ -5,9 +5,9 @@ Estimeed Sirs,
 ```
 This project is a recriation of the famous cellphone Snake Game, built with Javascript.
 You can play it with the arrows keyboard keys:
-![Up, down, rigth and left](http://lh5.ggpht.com/-xlok-SYiLXQ/UXE1sddejaI/AAAAAAAAE74/cBgGFSBQuK8/setas_navegue_thumb%25255B1%25255D.gif?imgmax=800)
 
 ```
+![Up, down, rigth and left](http://lh5.ggpht.com/-xlok-SYiLXQ/UXE1sddejaI/AAAAAAAAE74/cBgGFSBQuK8/setas_navegue_thumb%25255B1%25255D.gif?imgmax=800)
 
 This repository allocates the Project, based on [DeLucca7 repository](https://github.com/DeLucca7/Snake-Game_Javascript) (accessed 30/04/2023):
 
