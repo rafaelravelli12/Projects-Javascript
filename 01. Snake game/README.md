@@ -21,6 +21,7 @@ The project was developed in [Visual Studio Code IDE](https://code.visualstudio.
 The project is located on server [AWS S3](https://aws.amazon.com/console/)
 
 ![image](https://img.shields.io/badge/Windows-017AD7?style=for-the-badge&logo=windows&logoColor=white)
+![image](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![image](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
 ## Commands to run the Project locally
